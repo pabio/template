@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "description": "Repository template with GitHub Actions CI, releases, and more",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koj-co/template.git"
+  },
+  "keywords": [
+    "koj",
+    "template",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Anand Chowdhary <mail@anandchowdhary.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koj-co/template/issues"
+  },
+  "homepage": "https://github.com/koj-co/template#readme"
+}
