@@ -11,6 +11,8 @@ This is a starter repository for building Node.js projects at Koj.
 - [Merge PRs on approved reviews](./github/actions/automerge.yml)
 - [CLA enforcement for new contributors](./github/actions/cla.yml)
 - [Create PRs from feature/hotfix branches](./github/actions/feature-pr.yml)
+- [Write code in TypeScript](./src/index.ts)
+- [Tests using Jest](./src/index.spec.ts)
 
 ## 💻 Getting started
 
