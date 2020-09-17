@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "@koj/template",
   "version": "0.0.0",
   "description": "Repository template with GitHub Actions CI, releases, and more",
   "main": "dist/index.js",
