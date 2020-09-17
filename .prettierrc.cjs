@@ -1,1 +1,1 @@
-module.exports = require("@koj-co/prettierrc");
+module.exports = require("@koj/config").prettier;
