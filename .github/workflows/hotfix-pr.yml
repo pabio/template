@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pull-request-action
-        uses: vsoch/pull-request-action@1.0.7
+        uses: vsoch/pull-request-action@22860a09e5c90e99e4a2e051677ccacf4f6fecdd
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           BRANCH_PREFIX: "hotfix-"
           PULL_REQUEST_BRANCH: "production"
           PULL_REQUEST_BODY: "🚀 Opening a pull request for this branch"
+          PULL_REQUEST_REVIEWERS: "AnandChowdhary"
