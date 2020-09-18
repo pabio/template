@@ -16,4 +16,3 @@ jobs:
           BRANCH_PREFIX: "hotfix-"
           PULL_REQUEST_BRANCH: "production"
           PULL_REQUEST_BODY: "🚀 Opening a pull request for this branch"
-          PULL_REQUEST_REVIEWERS: "AnandChowdhary"
