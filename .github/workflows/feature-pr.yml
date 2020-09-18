@@ -17,3 +17,4 @@ jobs:
           PULL_REQUEST_BRANCH: "master"
           PULL_REQUEST_BODY: "🚀 Opening a pull request for this branch"
           PULL_REQUEST_REVIEWERS: "AnandChowdhary"
+          PULL_REQUEST_DRAFT: true
