@@ -1,5 +1,7 @@
 # 🖌️ Template
 
+7
+
 This is a starter repository for building Node.js projects at Koj.
 
 ## ⭐️ Features
