@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pull-request-action
-        uses: vsoch/pull-request-action@9952006dd8cd367e81ba61321ee1c49e58079e3e
+        uses: vsoch/pull-request-action@3b11e02a3b36e0ba12be2c90fb5b58d29f268d76
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           BRANCH_PREFIX: "hotfix-"
