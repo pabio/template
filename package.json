@@ -4,6 +4,7 @@
   "description": "Repository template with GitHub Actions CI, releases, and more",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "test-watch": "jest --watch",
     "coverage": "jest --coverage",
