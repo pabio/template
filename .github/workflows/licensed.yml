@@ -18,7 +18,7 @@ jobs:
       - id: licensed
         uses: jonabc/licensed-ci@v1
         with:
-          config_file: .github/.licensed.yml
+          config_file: .github/licensed.yml
           github_token: ${{ secrets.GH_PAT }}
           user_name: "Koj Bot"
           user_email: "bot@koj.co"
