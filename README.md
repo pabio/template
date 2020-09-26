@@ -4,13 +4,14 @@ This is a starter repository for building Node.js projects at Koj.
 
 ## ⭐️ Features
 
-- [Koj's Prettier configuration](./.prettierrc.cjs)
 - [Semantic Release with Gitmoji](./release.config.js)
+- [Koj's Prettier configuration](./.prettierrc.cjs)
 - [Dependabot configuration](./.github/dependabot.yml)
+- [CI for open-source licenses](./.github/workflows/licensed.yml)
 - [Pull request labeler](./.github/labeler.yml)
-- [Merge PRs on approved reviews](./github/actions/automerge.yml)
-- [CLA enforcement for new contributors](./github/actions/cla.yml)
-- [Create PRs from feature/hotfix branches](./github/actions/feature-pr.yml)
+- [Merge PRs on approved reviews](./github/workflows/automerge.yml)
+- [CLA enforcement for new contributors](./github/workflows/cla.yml)
+- [Create PRs from feature/hotfix branches](./github/workflows/feature-pr.yml)
 - [Write code in TypeScript](./src/index.ts)
 - [Tests using Jest](./src/index.spec.ts)
 
