@@ -19,7 +19,9 @@ This is a starter repository for building Node.js projects at Koj.
 
 1. [Create a new repository from this template](https://github.com/koj-co/template/generate)
 2. Install dependencies using `npm install`
-3. Update package details in `package.json`
+3. Update package details in `package.json` and `README.md`
+   1. Find and replace `koj-co/template` with `user/repository`
+   2. Find and replace `@koj/template` with npm project name
 
 ## 📄 License
 
