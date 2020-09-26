@@ -1,7 +1,7 @@
 {
   "name": "@koj/template",
   "version": "0.0.0",
-  "description": "Repository template with GitHub Actions CI, releases, and more",
+  "description": "Koj's repository template with GitHub Actions CI, releases, and more",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
