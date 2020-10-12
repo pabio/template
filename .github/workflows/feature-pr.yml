@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set branch name
-        run: echo "PULL_REQUEST_TITLE=🔀 ${{ github.ref }}" >> $GITHUB_ENV
+        run: echo "PULL_REQUEST_TITLE=🔀 ${${{ github.ref }}/'refs/heads/'/''}" >> $GITHUB_ENV
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.10
         env:
