@@ -30,11 +30,24 @@ jobs:
           result-encoding: string
       - name: Set branch name
         run: echo "PULL_REQUEST_TITLE=${{steps.set-branch-name.outputs.result}}" >> $GITHUB_ENV
+      - name: Generate PR body
+        uses: actions/github-script@v3
+        id: set-pr-body
+        with:
+          script: |
+            return `I'm opening this pull request for the \`${context.payload.ref.replace(
+              "refs/heads/",
+              ""
+            )}\` branch, pushed by @${context.payload.head_commit.author.username} with ${
+              context.payload.commits.length
+            } commits.`;
+          result-encoding: string
+      - name: Set PR body
+        run: echo "PULL_REQUEST_BODY=${{steps.set-pr-body.outputs.result}}" >> $GITHUB_ENV
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.10
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           BRANCH_PREFIX: "hotfix-"
           PULL_REQUEST_BRANCH: "production"
-          PULL_REQUEST_BODY: "🚀 Opening a pull request for this branch"
           PULL_REQUEST_REVIEWERS: "AnandChowdhary"
