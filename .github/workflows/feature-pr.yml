@@ -19,9 +19,7 @@ jobs:
               .payload
               .ref
               .replace("refs/heads/", "")
-              .toLowerCase()
-              .replace(/ /g, "-")
-              .replace(/[^\w-]+/g, ""))}`
+              .replace(/-/g, " "))}`
           result-encoding: string
       - name: Set branch name
         run: echo "PULL_REQUEST_TITLE=${{steps.set-branch-name.outputs.result}}" >> $GITHUB_ENV
