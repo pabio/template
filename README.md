@@ -1,5 +1,7 @@
 # 🖌️ Template
 
+3
+
 This is a starter repository for building Node.js projects at Koj.
 
 <!-- prettier-ignore-start -->
