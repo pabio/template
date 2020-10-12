@@ -9,6 +9,22 @@ jobs:
     name: PullRequestAction
     runs-on: ubuntu-latest
     steps:
+      - name: Generate branch name
+        uses: actions/github-script@v3
+        id: set-branch-name
+        with:
+          script: |
+            const nameCapitalized = name => name.charAt(0).toUpperCase() + name.slice(1);
+            return `🔀 ${nameCapitalized(context
+              .payload
+              .ref
+              .replace("refs/heads/", "")
+              .toLowerCase()
+              .replace(/ /g, "-")
+              .replace(/[^\w-]+/g, ""))}`
+          result-encoding: string
+      - name: Set branch name
+        run: echo "PULL_REQUEST_TITLE=${{steps.set-branch-name.outputs.result}}" >> $GITHUB_ENV
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.10
         env:

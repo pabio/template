@@ -14,7 +14,7 @@ jobs:
         id: set-branch-name
         with:
           script: |
-            const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
+            const nameCapitalized = name => name.charAt(0).toUpperCase() + name.slice(1);
             return `🔀 ${nameCapitalized(context
               .payload
               .ref
