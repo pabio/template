@@ -20,7 +20,7 @@ jobs:
               : context.payload.ref.startsWith("refs/heads/hotfix")
               ? "🚑 "
               : "";
-            return `${emoji(context.payload.ref)}${capitalize(
+            return `${emoji}${capitalize(
               context.payload.ref
                 .replace("refs/heads/", "")
                 .replace(/-/g, " ")
