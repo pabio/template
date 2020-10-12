@@ -9,8 +9,15 @@ jobs:
     name: PullRequestAction
     runs-on: ubuntu-latest
     steps:
+      - name: Generate branch name
+        uses: actions/github-script@v3
+        id: set-branch-name
+        with:
+          script: |
+            return "Example PR name"
+          result-encoding: string
       - name: Set branch name
-        run: echo "PULL_REQUEST_TITLE=🔀 ${${{ github.ref }}/'refs/heads/'/''}" >> $GITHUB_ENV
+        run: echo "PULL_REQUEST_TITLE=${{steps.set-branch-name.outputs.result}}" >> $GITHUB_ENV
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.10
         env:
