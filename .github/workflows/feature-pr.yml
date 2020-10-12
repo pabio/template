@@ -14,8 +14,14 @@ jobs:
         id: set-branch-name
         with:
           script: |
-            console.log(context.payload);
-            return `🔀 Example PR name 2`
+            const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
+            return `🔀 ${nameCapitalized(context
+              .payload
+              .ref
+              .replace("refs/heads/", "")
+              .toLowerCase()
+              .replace(/ /g, "-")
+              .replace(/[^\w-]+/g, ""))}`
           result-encoding: string
       - name: Set branch name
         run: echo "PULL_REQUEST_TITLE=${{steps.set-branch-name.outputs.result}}" >> $GITHUB_ENV
