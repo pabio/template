@@ -9,6 +9,8 @@ jobs:
     name: PullRequestAction
     runs-on: ubuntu-latest
     steps:
+      - name: Set branch name
+        run: echo "::set-env name=PULL_REQUEST_FROM_BRANCH::🔀 ${BRANCH_FROM}"
       - name: pull-request-action
         uses: vsoch/pull-request-action@1.0.10
         env:
