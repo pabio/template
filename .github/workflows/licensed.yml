@@ -20,9 +20,9 @@ jobs:
         with:
           config_file: .github/licensed.yml
           github_token: ${{ secrets.GH_PAT }}
-          user_name: "Koj Bot"
+          user_name: "KojBot"
           user_email: "bot@koj.co"
-          commit_message: ":page_facing_up: Update dependency license file"
+          commit_message: ":page_facing_up: Update dependency license file [skip ci]"
       - uses: actions/github-script@v3
         if: always() && steps.licensed.outputs.pr_number
         with:
