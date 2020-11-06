@@ -16,7 +16,7 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
         with:
           path-to-signatures: cla-signatures.json
-          path-to-cla-document: https://github.com/koj-co/.github/blob/master/CLA.md
+          path-to-document: https://github.com/koj-co/.github/blob/master/CLA.md
           allowlist: dependabot-preview[bot], dependabot[bot], greenkeeper[bot], *bot, bot*
           remote-organization-name: koj-co
           remote-repository-name: .github
