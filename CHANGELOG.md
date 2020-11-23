@@ -1,3 +1,18 @@
+## [v1.0.3](https://github.com/koj-co/template/compare/v1.0.2...v1.0.3) (2020-11-23)
+
+### ⬆️ Dependency updates
+
+- [`d9afa47`](https://github.com/koj-co/template/commit/d9afa47)  Bump @semantic-release/github from 7.1.1 to 7.1.2
+- [`1c776f3`](https://github.com/koj-co/template/commit/1c776f3)  Bump @semantic-release/npm from 7.0.6 to 7.0.8
+- [`db5346d`](https://github.com/koj-co/template/commit/db5346d)  Bump semantic-release from 17.2.2 to 17.2.3
+- [`cbecdd4`](https://github.com/koj-co/template/commit/cbecdd4)  Update dependencies
+- [`f85a67b`](https://github.com/koj-co/template/commit/f85a67b)  Bump vsoch/pull-request-action from 1.0.11 to 1.0.12
+- [`1a9bd84`](https://github.com/koj-co/template/commit/1a9bd84)  Bump update-template from 1.1.2 to 1.3.1
+- [`b6c7656`](https://github.com/koj-co/template/commit/b6c7656)  Bump @semantic-release/github from 7.1.2 to 7.2.0
+- [`527ff50`](https://github.com/koj-co/template/commit/527ff50)  Bump @koj/config from 1.2.8 to 1.2.9
+- [`2d5d178`](https://github.com/koj-co/template/commit/2d5d178)  Bump semantic-release from 17.2.3 to 17.2.4
+- [`6de1619`](https://github.com/koj-co/template/commit/6de1619)  Bump typescript from 4.0.5 to 4.1.2
+
 ## [v1.0.2](https://github.com/koj-co/template/compare/v1.0.1...v1.0.2) (2020-11-16)
 
 ### ⬆️ Dependency updates
