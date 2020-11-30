@@ -62,6 +62,6 @@ jobs:
           script: |
             github.issues.createComment({
               ...context.repo,
-              issue_number: ${{ steps.licensed.outputs.pr_number }}
+              issue_number: ${{ steps.licensed.outputs.pr_number }},
               body: "I've checked the license of your new dependency and it looks good!"
             })
