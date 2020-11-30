@@ -1,3 +1,9 @@
+## [v1.0.4](https://github.com/koj-co/template/compare/v1.0.3...v1.0.4) (2020-11-30)
+
+### ⬆️ Dependency updates
+
+- [`ebc0c51`](https://github.com/koj-co/template/commit/ebc0c51)  Bump semantic-release from 17.2.4 to 17.3.0
+
 ## [v1.0.3](https://github.com/koj-co/template/compare/v1.0.2...v1.0.3) (2020-11-23)
 
 ### ⬆️ Dependency updates
