@@ -1,3 +1,13 @@
+## v1.0.5 (2020-12-07)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.5) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.4...v1.0.5) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.5) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.5.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.5.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`4f8e28b`](https://github.com/koj-co/template/commit/4f8e28b)  Bump @types/jest from 26.0.15 to 26.0.16
+- [`0c1702f`](https://github.com/koj-co/template/commit/0c1702f)  Bump @koj/config from 1.2.9 to 1.2.11
+- [`aa6e13c`](https://github.com/koj-co/template/commit/aa6e13c)  Bump @semantic-release/npm from 7.0.8 to 7.0.9
+
 ## [v1.0.4](https://github.com/koj-co/template/compare/v1.0.3...v1.0.4) (2020-11-30)
 
 ### ⬆️ Dependency updates
