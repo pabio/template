@@ -1,3 +1,15 @@
+## v1.0.6 (2020-12-14)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.6) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.5...v1.0.6) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.6) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.6.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.6.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`6307957`](https://github.com/koj-co/template/commit/6307957)  Bump @types/jest from 26.0.16 to 26.0.17
+- [`cd390eb`](https://github.com/koj-co/template/commit/cd390eb)  Bump @types/jest from 26.0.17 to 26.0.18
+- [`9b74f46`](https://github.com/koj-co/template/commit/9b74f46)  Bump actions/setup-node from v2.1.2 to v2.1.3
+- [`639e3fb`](https://github.com/koj-co/template/commit/639e3fb)  Bump @types/jest from 26.0.18 to 26.0.19
+- [`54fb1e2`](https://github.com/koj-co/template/commit/54fb1e2)  Bump ini from 1.3.5 to 1.3.7
+
 ## v1.0.5 (2020-12-07)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.5) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.4...v1.0.5) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.5) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.5.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.5.tar.gz))
