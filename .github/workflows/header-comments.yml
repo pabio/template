@@ -1,0 +1,25 @@
+name: Header Comments CI
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+    name: Add comments
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Add comments to src/
+        uses: koj-co/header-comments
+        with:
+          directory: src
+      - name: Create PR with changes
+        uses: peter-evans/create-pull-request@v3
+      - name: Publish comments
+        uses: stefanzweifel/git-auto-commit-action@v4.7.2
+        with:
+          commit_message: ":bulb: Add header comments [skip ci]"
+          commit_user_name: Koj Bot
+          commit_user_email: bot@koj.co
+          commit_author: Koj Bot <bot@koj.co>
