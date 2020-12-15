@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - name: Add comments to src/
-        uses: koj-co/header-comments
+        uses: koj-co/header-comments@master
         with:
           directory: src
       - name: Create PR with changes
