@@ -14,8 +14,6 @@ jobs:
         uses: koj-co/header-comments@master
         with:
           directory: src
-      - name: Create PR with changes
-        uses: peter-evans/create-pull-request@v3
       - name: Publish comments
         uses: stefanzweifel/git-auto-commit-action@v4.7.2
         with:
