@@ -1,3 +1,13 @@
+## v1.0.7 (2020-12-21)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.7) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.6...v1.0.7) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.7) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.7.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.7.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`7442126`](https://github.com/koj-co/template/commit/7442126)  Bump typescript from 4.1.2 to 4.1.3
+- [`3f3d0a2`](https://github.com/koj-co/template/commit/3f3d0a2)  Bump stefanzweifel/git-auto-commit-action
+- [`61e0968`](https://github.com/koj-co/template/commit/61e0968)  Bump actions/setup-node from v2.1.3 to v2.1.4
+
 ## v1.0.6 (2020-12-14)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.6) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.5...v1.0.6) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.6) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.6.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.6.tar.gz))
