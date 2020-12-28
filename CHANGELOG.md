@@ -1,3 +1,13 @@
+## v1.0.8 (2020-12-28)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.8) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.7...v1.0.8) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.8) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.8.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.8.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`c4f8b7a`](https://github.com/koj-co/template/commit/c4f8b7a)  Bump vsoch/pull-request-action from 1.0.12 to 1.0.13
+- [`9c05843`](https://github.com/koj-co/template/commit/9c05843)  Bump pascalgn/automerge-action from v0.12.0 to v0.13.0
+- [`4f0eb2f`](https://github.com/koj-co/template/commit/4f0eb2f)  Bump node-notifier from 8.0.0 to 8.0.1
+
 ## v1.0.7 (2020-12-21)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.7) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.6...v1.0.7) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.7) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.7.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.7.tar.gz))
