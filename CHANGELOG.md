@@ -1,3 +1,11 @@
+## v1.0.10 (2021-01-11)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.10) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.9...v1.0.10) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.10) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.10.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.10.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`c64cc02`](https://github.com/koj-co/template/commit/c64cc02)  Bump @types/jest from 26.0.19 to 26.0.20
+
 ## v1.0.9 (2021-01-04)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.9) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.8...v1.0.9) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.9) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.9.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.9.tar.gz))
