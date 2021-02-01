@@ -1,3 +1,11 @@
+## v1.0.13 (2021-02-01)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.13) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.12...v1.0.13) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.13) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.13.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.13.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`a7acdc6`](https://github.com/koj-co/template/commit/a7acdc6)  Bump semantic-release from 17.3.6 to 17.3.7
+
 ## v1.0.12 (2021-01-25)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.12) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.11...v1.0.12) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.12) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.12.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.12.tar.gz))
