@@ -1,3 +1,11 @@
+## v1.0.14 (2021-02-08)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.14) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.13...v1.0.14) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.14) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.14.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.14.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`aa80207`](https://github.com/koj-co/template/commit/aa80207)  Bump ts-jest from 26.4.4 to 26.5.0
+
 ## v1.0.13 (2021-02-01)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.13) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.12...v1.0.13) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.13) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.13.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.13.tar.gz))
