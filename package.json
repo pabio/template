@@ -1,6 +1,6 @@
 {
   "name": "@koj/template",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Koj's repository template with GitHub Actions CI, releases, and more",
   "main": "dist/index.js",
   "scripts": {
