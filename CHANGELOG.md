@@ -1,3 +1,16 @@
+## v1.0.16 (2021-02-22)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.16) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.15...v1.0.16) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.16) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.16.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.16.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`67298a1`](https://github.com/koj-co/template/commit/67298a1)  Bump actions/cache from v2 to v2.1.4
+- [`2a88f98`](https://github.com/koj-co/template/commit/2a88f98)  Bump vsoch/pull-request-action from 1.0.13 to 1.0.14
+- [`bb08dd2`](https://github.com/koj-co/template/commit/bb08dd2)  Bump pascalgn/automerge-action from v0.13.0 to v0.13.1
+- [`2a16ec4`](https://github.com/koj-co/template/commit/2a16ec4)  Bump semantic-release from 17.3.8 to 17.3.9
+- [`a5e7e8f`](https://github.com/koj-co/template/commit/a5e7e8f)  Update all dependencies
+- [`9d06f9b`](https://github.com/koj-co/template/commit/9d06f9b)  Bump vsoch/pull-request-action from 1.0.14 to 1.0.15
+
 ## v1.0.15 (2021-02-15)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.15) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.14...v1.0.15) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.15) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.15.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.15.tar.gz))
