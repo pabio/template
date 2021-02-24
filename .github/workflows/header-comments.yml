@@ -15,7 +15,7 @@ jobs:
         with:
           directory: src
       - name: Publish comments
-        uses: stefanzweifel/git-auto-commit-action@v4.9.0
+        uses: stefanzweifel/git-auto-commit-action@v4.9.1
         with:
           commit_message: ":bulb: Add header comments [skip ci]"
           commit_user_name: Koj Bot
