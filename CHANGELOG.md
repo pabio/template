@@ -1,3 +1,16 @@
+## v1.0.17 (2021-03-01)
+
+[📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.17) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.16...v1.0.17) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.17) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.17.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.17.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`c05efe9`](https://github.com/koj-co/template/commit/c05efe9)  Bump stefanzweifel/git-auto-commit-action
+- [`9233986`](https://github.com/koj-co/template/commit/9233986)  Bump actions/setup-node from v2.1.4 to v2.1.5
+- [`edd2f2f`](https://github.com/koj-co/template/commit/edd2f2f)  Bump ts-jest from 26.5.1 to 26.5.2
+- [`da63a00`](https://github.com/koj-co/template/commit/da63a00)  Bump typescript from 4.1.5 to 4.2.2
+- [`8f80e94`](https://github.com/koj-co/template/commit/8f80e94)  Bump stefanzweifel/git-auto-commit-action
+- [`bd8eaa1`](https://github.com/koj-co/template/commit/bd8eaa1)  Bump semantic-release from 17.3.9 to 17.4.0
+
 ## v1.0.16 (2021-02-22)
 
 [📝 Release notes](https://github.com/koj-co/template/releases/tag/v1.0.16) · [💻 Compare](https://github.com/koj-co/template/compare/v1.0.15...v1.0.16) · [🔖 Tag](https://github.com/koj-co/template/tree/v1.0.16) · 🗄️ Archive ([zip](https://github.com/koj-co/template/archive/v1.0.16.zip) · [tar.gz](https://github.com/koj-co/template/archive/v1.0.16.tar.gz))
